@@ -1,0 +1,149 @@
+{
+  "students": [
+    {
+      "username": "Mohamed",
+      "email": "mohamed@gmail.com",
+      "password": "123",
+      "subjects": [
+        {
+          "name": "English",
+          "id": "2",
+          "degree": 2
+        }
+      ],
+      "id": 2
+    },
+    {
+      "username": "Ali",
+      "email": "ali@gmail.com",
+      "password": "123",
+      "subjects": [
+        {
+          "name": "English",
+          "id": "2",
+          "degree": 2
+        }
+      ],
+      "id": 3
+    },
+    {
+      "username": "emam",
+      "email": "emam@gg.com",
+      "password": "123",
+      "subjects": [
+        {
+          "name": "الرياضيات",
+          "id": "1",
+          "degree": 2
+        },
+        {
+          "name": "English",
+          "id": "2",
+          "degree": 1
+        }
+      ],
+      "id": 4
+    },
+    {
+      "username": "amr",
+      "email": "amr@gg.com",
+      "password": "123",
+      "subjects": [
+        {
+          "name": "الرياضيات",
+          "id": "1",
+          "degree": 1
+        },
+        {
+          "name": "اللغه العربيه",
+          "id": "2",
+          "degree": 2
+        },
+        {
+          "name": "English",
+          "id": "3",
+          "degree": 1
+        }
+      ],
+      "id": 5
+    }
+  ],
+  "doctor": [
+    {
+      "username": "admin",
+      "email": "admin@admin.com",
+      "password": "123",
+      "id": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "الرياضيات",
+      "questions": [
+        {
+          "question": "حاصل ضرب 25*25",
+          "answer1": "50",
+          "answer2": "625",
+          "answer3": "100",
+          "answer4": "425",
+          "correctAnswer": "625"
+        },
+        {
+          "question": "ناتج الجزر التربيعي ل 144",
+          "answer1": "14",
+          "answer2": "16",
+          "answer3": "12",
+          "answer4": "11",
+          "correctAnswer": "12"
+        },
+        {
+          "question": "ناتج ضرب 215 * 142",
+          "answer1": "30530",
+          "answer2": "50330",
+          "answer3": "35300",
+          "answer4": "50030",
+          "correctAnswer": "30530"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "اللغه العربيه",
+      "questions": [
+        {
+          "question": "متى ولد عباس العقاد",
+          "answer1": "1889",
+          "answer2": "1898",
+          "answer3": "1886",
+          "answer4": "1882",
+          "correctAnswer": "1886"
+        },
+        {
+          "question": "من كاتب قصيده مصر تتحدث عن نفسها",
+          "answer1": "فاروق جويده",
+          "answer2": "احمد شوقي",
+          "answer3": "ابراهيم حجازي",
+          "answer4": "حافظ ابراهيم",
+          "correctAnswer": "ابراهيم حجازي"
+        },
+        {
+          "question": "مفرد دلائل ",
+          "answer1": "دليله",
+          "answer2": "دلدول",
+          "answer3": "دلاله",
+          "answer4": "احا ملهاش مفرد",
+          "correctAnswer": "احا ملهاش مفرد"
+        }
+      ],
+      "id": 2
+    }
+  ],
+  "login": [
+    {
+      "username": "Ali",
+      "role": "students",
+      "userId": 3,
+      "id": 1
+    }
+  ]
+}
